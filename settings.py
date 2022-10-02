@@ -1,7 +1,11 @@
 """Settings module"""
+import comps
 
 TESSERACT_PATH = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-USE_HOT_KEY = True
-HOT_KEY = 'x'
-CHAMPIONS_TO_BUY = ["Lux", "Vladimir", "Varus", "Nidalee", "Skarner", "Sylas", "Nomsy", "Aurelion Sol", "Lillia", "Taliyah", "Zoe"]
+USE_HOT_KEY = False
 REROLL = False
+HOT_KEY = 'x'
+
+champ_add = []
+CHAMPIONS_TO_BUY = comps.Astral_Mage #+ comps.Lagoon_Cannoner
+
