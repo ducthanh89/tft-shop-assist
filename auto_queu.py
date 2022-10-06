@@ -130,7 +130,7 @@ def queue() -> None:
 
 if __name__ == '__main__':
     while 1:
-        try:
-            queue()
-        except: pass
-        sleep(5)
+        # try:
+        queue()
+        # except: pass
+        # sleep(5)
